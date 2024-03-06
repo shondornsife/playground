@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playground</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        div {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 100px;
+        }
+        p {
+            background-color: #acf;
+            width: 200px;
+            height: 200px;
+            display: flex;
+            justify-content: space-between;
+            margin: 0  auto;
+            border: black solid 2px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        {% for count in range(num) %}
+            <p></p>
+        {% endfor %}
+    </div>
+</body>
+</html>
